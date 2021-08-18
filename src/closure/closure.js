@@ -1,17 +1,18 @@
 // NO RECUERDA
 // const moneyBox = (coins) => {
-//     var saveCoins = 0;
-//     saveCoins += coins;
-//     console.log(`Money Box: $${saveCoins}`);
+//     var noSaveCoins = 0;
+//     noSaveCoins += coins;
+//     console.log(`Money Box: $${noSaveCoins}`);
 // }
 // moneyBox(5);
 // moneyBox(10);
 
+// CLOSURE SI RECUERDA
 const moneyBoxClosure = () => {
-    var saveCoins = 0;
+    var savedCoins = 0;
     const countCoins = (coins) => {
-        saveCoins += coins;
-        console.log(`Money Box: $${saveCoins}`);
+        savedCoins += coins;
+        console.log(`Money Box: $${savedCoins}`);
     }
     return countCoins;
 }
