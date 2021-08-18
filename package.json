@@ -1,0 +1,24 @@
+{
+  "name": "platzi_closuresscope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomielizondo/platzi_ClosuresScope.git"
+  },
+  "keywords": [
+    "closures",
+    "scope",
+    "javascript"
+  ],
+  "author": "Tomás Elizondo <tomelizif@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomielizondo/platzi_ClosuresScope/issues"
+  },
+  "homepage": "https://github.com/tomielizondo/platzi_ClosuresScope#readme"
+}
